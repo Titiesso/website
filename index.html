@@ -33,12 +33,32 @@
     git remote add origin link
     git push origin master
 
-    
+
     6. Do one more commit to index.html file 
 
     git add index.html
     git commit -m "added notes"
     git push origin master
+
+    7. Create an Ec2 server with amazon linux and port http(80) enabled.
+
+    8. install httpd in our Ec2 server
+
+    sudo bash
+    yum install httpd -y
+    systemctl start httpd
+
+    9. Copy the Public IP from Ec2 instance and paste it in the borwser.
+
+    confirm you are receiving a Test site
+
+
+    10. Put our code inside the Ec2 server using git
+
+    git clone link
+
+
+
 </p>
 
 </body>
